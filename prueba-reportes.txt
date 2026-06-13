@@ -1,0 +1,30 @@
+POST
+Al ingresar la ruta POST en Thunder Client, 
+el sistema arroja una respuesta en formato JSON 
+donde se confirma que el reporte quedo registrado.
+Además responde con el resto de información almacenada en la servidor.
+
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+GET
+Al ingresar la ruta, en este caso desde GET en Thunder Client, 
+el sistema arroja una respuesta en formato JSON que permite consultar
+la información almacenada en el servidor. 
+En este caso solo muestra el reporte realizado con sus datos correspondientes.
+
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
