@@ -1,0 +1,66 @@
+EJEMPLO 1
+_______________________________
+POST
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+}
+
+GET
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+]  
+
+EJEMPLO 2
+_______________________________
+POST
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 3,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+}
+
+GET
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+]    
+
+EJEMPLO 3
+{
+  "tipo": "Adulto mayor",
+  "descripcion": "Falta de ofertas recreativas"
+}
+
+POST
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 4,
+    "tipo": "Adulto mayor",
+    "descripcion": "Falta de ofertas recreativas"
+  }
+}
+
+GET
+[
+  {
+    "id": 4,
+    "tipo": "Adulto mayor",
+    "descripcion": "Falta de ofertas recreativas"
+  }
+]
