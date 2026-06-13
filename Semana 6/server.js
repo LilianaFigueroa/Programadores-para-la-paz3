@@ -3,6 +3,10 @@ const app = express();
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("servidor activo");
+  });
+
 app.post('/registro', (req, res) => {
 
   const nombre = req.body.nombre;
