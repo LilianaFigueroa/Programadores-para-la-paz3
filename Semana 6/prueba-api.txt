@@ -1,0 +1,9 @@
+La respuesta que devuelve el servidor surge de una petición POST,
+la cual es enviada a la ruta http de registro. Esta petición
+es arrojada por Thunder o Postman, pero no en el navegador.
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}

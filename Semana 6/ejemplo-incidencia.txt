@@ -1,0 +1,8 @@
+Al colocar la ruta indicada, seleccionar que el body sea JSON
+y dar clic send en Thunder, me aaroja lo siguiente:
+
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
